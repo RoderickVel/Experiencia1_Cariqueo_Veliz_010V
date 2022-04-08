@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+  <title>Vivero Maqueta v1</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+   
+  <div class="header-row" id="header-row" style="padding: 0px; overflow:hidden;">
+  <div class="container-fluid" style="padding-top: 50px;">
+    <div class="row"> 
+      <div class="col-xs-12"> 
+          <a class="navbar-brand logo" href="index.html">
+            <img src="img/bannerlogo1.jpg" alt="company logo" style="width: 100%;">
+          </a> 
+      </div>     
+    </div>
+  </div>
+  </div>
+
+  <!--navbar-->
+  <nav class="navbar fixed-top navbar-expand-sm navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+      <span class="navbar-toggler-icon btn-outline-success"></span>
+    </button>
+    
+    <!-- logo -->
+    <a class="navbar-brand" href="index.html" style="padding-left: 30px">
+      <img src="img/tree-icon.png" width="30" height="30" alt="">
+    </a>
+    
+    <!-- enlaces -->
+    <div class="collapse navbar-collapse" id="opciones">   
+      <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="btn btn-outline-success me-2" href="index.html" role="button">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-success me-2" href="productos.html">Catálogo</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-success me-2" href="somos.html">Quienes Somos</a>
+        </li>           
+      </ul>
+    </div>
+  </nav>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <!--CARRUSEL-->
+  <br>
+    <div class="container-fluid">
+      
+      <div id="carousel1" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel1" data-slide-to="1"></li>
+          <li data-target="#carousel1" data-slide-to="2"></li>
+        </ol>
+        <!-- diapositivas -->
+        <div class="carousel-inner ">
+          
+          <div class="carousel-item active">
+            <a href="#"><img class="d-block w-100" src="img/bannerfoto1.jpg" alt=""> </a>
+              <div class="carousel-caption">
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img class="d-block w-100" src="img/naranjobanner.jpg" alt="">
+              <div class="carousel-caption">
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img class="d-block w-100" src="img/limonbanner.jpg" alt="">
+              <div class="carousel-caption">
+              </div>
+          </div>
+        </div>
+        <!-- botones de desplazamiento a izquierda y derecha -->      
+        <a class="carousel-control-prev" href="#carousel1" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel1" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+      
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!--CARDS-->  
+      <br>
+      <br>
+  <div class="container">   
+    <div class="row">       
+      <div class="col-md">        
+          <div class="card text-center">
+            <div class="card-body">
+              <h4 class="card-title">Árboles Frutales Cítricos</h4>
+              <img src="img/naranjobanner.jpg" class="img-fluid" style="padding-bottom: 15px;">
+              <p class="card-text">Nuestra gama de árboles frutales cítricos están cuidados con los mejores estándares
+                de la industria. Regados con sistemas tecnificados para un uso eficiente del agua y asegurar que cada uno de
+                ellos reciba un riego uniforme y la cantidad exacta necesaria para poder crecer y entregar frutos de calidad </p>
+              <a href="productos.html" class="btn btn-primary">Averigua más</a>
+            </div>
+          </div>          
+      </div>
+
+      <div class="col-md">        
+          <div class="card text-center">
+            <div class="card-body">
+              <h4 class="card-title">Un Negocio Familiar de Generaciones</h4>
+              <p class="card-text">Desde hace más de 6 décadas, viver Santa Hilda ha entregado calidad en sus árboles y otros productos
+                para cubrir las necesidades e ideas de emprendimiento de nuestros clientes. Todo esto bajo el cuidado y calor de cada miembro
+                de nuestra familia, asegurándonos que nuestros árboles entreguen en sus frutos todo el cariño y dedicación que ponemos en cada
+                uno de ellos. </p>
+                <img src="img/limonbanner.jpg" class="img-fluid" style="padding-bottom: 15px;">
+              <a href="somos.html" class="btn btn-primary">Averigua más</a>
+            </div>
+          </div>          
+      </div>
+      
+      <div class="col-md">        
+          <div class="card text-center">
+            <div class="card-body">
+              <h4 class="card-title">Ofertas Imperdibles de Temporada</h4>
+              <img src="img/bannerfoto1.jpg" class="img-fluid" style="padding-bottom: 15px;">
+              <p class="card-text">¿Quieres preparar tu negocio o sueño? Nuestras ofertas te ayudaran a cubrir todo lo que deseas.
+                Revisa nuestro catálogo de productos y sus ofertas en Naranjos y Paltos por esta temporada. Disponible hasta agotar stock y con
+              mayores descuentos en compras sobre los $500.000 </p>
+              <a href="productos.html" class="btn btn-primary">Ver productos</a>
+            </div>
+          </div>          
+      </div>      
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+<!--Footer-->
+  <br>
+  <br>
+  <div class="container-fluid" style="padding:0;margin:0">
+    
+    <footer>
+      
+      <footer class="text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+
+            <!-- Facebook -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"
+              role="button">
+              <img src="img/rrss-facebook.png" class="img-fluid" style="height:20px; width:20px; padding: 0px;">
+            </a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="#!"
+              role="button">
+              <img src="img/5282544_camera_instagram_social media_social network_instagram logo_icon.png" class="img-fluid" style="height:20px; width:20px; padding: 0px;"></a>
+            <!-- Linkedin -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="#!"
+              role="button">
+              <img src="img/rrss-linkedin.png" class="img-fluid" style="height:20px; width:20px; padding: 0px;"></a>
+          </section>
+          <!-- Section: Social media end -->
+        </div>
+        <!-- Grid container end -->
+      
+        <!-- Copyright -->
+        <div style="color:white;">
+          Roderick Véliz<br>
+          Marcos Cariqueo
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-white" href="index.html">Vivero Santa Hilda</a>
+        </div>
+        <!-- Copyright end-->
+      </footer>
+
+    </footer>
+   </div>
+ 
+</body>
+</html>
